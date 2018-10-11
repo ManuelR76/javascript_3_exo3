@@ -1,5 +1,9 @@
-document.getElementById("lastname").onkeyup = function() {myFunction()};
-function myFunction() {
-var lastName = document.getElementById("lastname").value;
-    alert(lastName);
-  }
+function green() {
+    text.style.color = 'green';
+};
+function red() {
+    text.style.color = 'red';
+};
+function blue() {
+    text.style.color = 'blue';
+};
